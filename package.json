@@ -1,0 +1,19 @@
+{
+  "name": "djitello",
+  "version": "1.0.0",
+  "description": "Backend Application for Dji Tello",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaherBouidani/DjiTello.git"
+  },
+  "author": "Maher Bouidani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaherBouidani/DjiTello/issues"
+  },
+  "homepage": "https://github.com/MaherBouidani/DjiTello#readme"
+}

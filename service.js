@@ -13,7 +13,6 @@ server.on('message', message => {
 });
 
 function handleError(err){
-    
     err ? console.log("Error", err): null;
 }
 

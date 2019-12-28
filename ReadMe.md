@@ -1,5 +1,3 @@
 A React/NodeJS application to control the Dji Tello drone
 
-Test
-
-Test2
+Complete Instructions are coming as is 

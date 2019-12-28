@@ -1,3 +1,4 @@
+const commandDelays = require('./commandDelays');
 const dgram = require('dgram');
 // const wait = require('waait'); 
 
@@ -16,7 +17,9 @@ function handleError(err){
     err ? console.log("Error", err): null;
 }
 
+const commands = ['command', 'battery?', 'takeoff','land'];
 
+let i = 0;
 
 server.send('command',0,7, PORT, HOST,handleError);
 server.send('battery?',0,8, PORT, HOST,handleError);

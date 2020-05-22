@@ -19,7 +19,6 @@ function handleError(err){
 
 const commands = ['command', 'battery?', 'takeoff','land'];
 
-let i = 0;
 
 server.send('command',0,7, PORT, HOST,handleError);
 server.send('battery?',0,8, PORT, HOST,handleError);
